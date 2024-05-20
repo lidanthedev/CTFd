@@ -52,4 +52,4 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 USER 1001
 EXPOSE 8001
-ENTRYPOINT ["/opt/CTFd/docker-entrypoint.sh"]
+ENTRYPOINT ["./docker-entrypoint.sh"]
